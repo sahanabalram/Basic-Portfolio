@@ -67,6 +67,10 @@ nav {
     text-decoration: none;
 }
 
+.navbar ul li a:hover {
+    color: teal;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -83,9 +87,7 @@ li {
     color: gray;
 }
 
-#ending {
-    padding: 0px;
-}
+
 
 .space {
     padding: 20px;
@@ -95,7 +97,7 @@ li {
     margin-top: 0px;
     margin-bottom: 0px;
     height: 700px;
-    /* border: 2px solid #dddddd; */
+    
 }
 
 .main {
@@ -109,6 +111,7 @@ li {
     background-color: #fff;
     padding: 10px 20px 10px 20px;
     margin: 10px;
+    border: 1px solid #dddddd;
 }
 
 hr {
@@ -139,19 +142,24 @@ img {
 
 .sidebar {
     float: left;
+    width: 250px;
+    height: 180px;
     background-color: white;
-    padding: 50px;
     border: 1px solid #dddddd;
-    margin: 10px; 
+    margin: 10px;
 }
 
 .connect {
     background-color: white;
     color: teal;
     text-align: center;
+    width: 250px;
+    height: 180px;
 }
 
 aside {
+    width: 250px;
+    height: 180px;
     float: right;
 }
 
